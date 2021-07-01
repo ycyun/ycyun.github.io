@@ -1,0 +1,46 @@
+baseURL = "https://blog.ycyun.xyz/"
+languageCode = "ko-KR"
+title = "블로그!!"
+theme = "hugo-hello-programmer-theme"
+DefaultContentLanguage = "kr"
+disqusShortname = "ycyun"
+googleAnalytics = "UA-XXXXXXXX-X"
+paginate = 7
+
+# config.toml
+[[menu.shortcuts]]
+name = "<i class='fas fa-tags'></i> Tags"
+url = "/tags"
+
+[related]
+  includeNewer = false
+  threshold = 80
+  toLower = false
+
+  [[related.indices]]
+    name = "keywords"
+    weight = 100
+
+  [[related.indices]]
+    name = "date"
+    weight = 10
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+
+enableRobotsTXT = true
+
+
+[sitemap]
+changefreq = "weekly"
+filename = "sitemap.xml"
+
+
+[author]
+  name = "ycyun (YeoCheon, Yun)"
+  email = "ycyun@ycyun.xyz"
+  homepage = "https://blog.lulab.net"
+
+[params]
+    description = "블로그!!"
