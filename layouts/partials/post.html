@@ -69,6 +69,15 @@
       </div>
     </div>
   </div>  
+{{ $related := .Site.RegularPages.Related . | first 5 }}
+{{ with $related }}
+<h3>See Also</h3>
+<ul>
+	{{ range . }}
+	<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+	{{ end }}
+</ul>
+{{ end }}
   {{ if not .Site.BuildDrafts }}
   <div class="post-comment">    
     {{ template "_internal/disqus.html" . }}    
