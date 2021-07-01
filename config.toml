@@ -6,7 +6,7 @@ DefaultContentLanguage = "kr"
 disqusShortname = "ycyun"
 googleAnalytics = "UA-XXXXXXXX-X"
 paginate = 7
-
+publishDir="docs"
 # config.toml
 [[menu.shortcuts]]
 name = "<i class='fas fa-tags'></i> Tags"
