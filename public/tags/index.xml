@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on 블로그</title>
+    <link>https://blog.ycyun.xyz/tags/</link>
+    <description>Recent content in Tags on 블로그</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-KR</language>
+    <managingEditor>ycyun@ycyun.xyz (ycyun (YeoCheon, Yun))</managingEditor>
+    <webMaster>ycyun@ycyun.xyz (ycyun (YeoCheon, Yun))</webMaster>
+    <lastBuildDate>Thu, 01 Jul 2021 11:25:35 +0900</lastBuildDate><atom:link href="https://blog.ycyun.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>hugo</title>
+      <link>https://blog.ycyun.xyz/tags/hugo/</link>
+      <pubDate>Thu, 01 Jul 2021 11:25:35 +0900</pubDate>
+      <author>ycyun@ycyun.xyz (ycyun (YeoCheon, Yun))</author>
+      <guid>https://blog.ycyun.xyz/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

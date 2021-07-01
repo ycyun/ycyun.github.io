@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://blog.ycyun.xyz/categories/</loc>
+    <lastmod>2021-07-01T11:25:35+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://blog.ycyun.xyz/post/hello-world/</loc>
+    <lastmod>2021-07-01T11:25:35+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://blog.ycyun.xyz/tags/hugo/</loc>
+    <lastmod>2021-07-01T11:25:35+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://blog.ycyun.xyz/post/</loc>
+    <lastmod>2021-07-01T11:25:35+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://blog.ycyun.xyz/tags/</loc>
+    <lastmod>2021-07-01T11:25:35+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://blog.ycyun.xyz/</loc>
+    <lastmod>2021-07-01T11:25:35+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://blog.ycyun.xyz/categories/%EC%9D%BC%EC%83%81/</loc>
+    <lastmod>2021-07-01T11:25:35+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+</urlset>
