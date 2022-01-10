@@ -1,0 +1,14 @@
+#!/bin/bash
+
+if [ -z "$1" ]
+then
+  echo "usage: $0 postname"
+else
+  if [ -f "content/post/$1.md" ]
+  then
+    vi content/post/$1.md
+  else
+    hugo new post/$1.md
+    vi content/post/$1.md
+  fi
+fi
