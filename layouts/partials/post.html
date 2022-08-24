@@ -17,30 +17,8 @@
   <section class="post-content">
     {{ .Content }}
   </section>
-<!--
-  <div class="share">    
-    <a
-      href="//www.facebook.com/sharer.php?src=bm&u={{ .Permalink }}&t={{ .Title }}"
-      onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"
-      ><i class="fa fa-facebook"></i
-    ></a>
-    <a
-      href="//twitter.com/intent/tweet?url={{ .Permalink }}&text={{ .Title }}&tw_p=tweetbutton"
-      onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"
-      ><i class="fa fa-twitter"></i
-    ></a>
-    <a
-      href="//getpocket.com/edit?url={{ .Permalink }}&title={{ .Title }}"
-      onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"
-      ><i class="fa fa-get-pocket"></i
-    ></a>
-    <a
-      href="//plus.google.com/share?url={{ .Permalink }}"
-      onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"
-      ><i class="fa fa-google-plus"></i
-    ></a>
-  </div>
--->
+
+  {{ if not .Params.hidemeta }}
   <div class="post-meta-code">
     <div class="desc">
       {{ i18n "postAuthorPrefix" }}
@@ -72,38 +50,47 @@
         {{ end }}
       </div>
     </div>
-  </div>  
-{{ $related := .Site.RegularPages.Related . | first 5 }}
-{{ with $related }}
-<h3>See Also</h3>
-<ul>
-	{{ range . }}
-	<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-	{{ end }}
-</ul>
-{{ end }}
-  {{ if not .Site.BuildDrafts }}
-  <div class="post-comment">    
-    {{ template "_internal/disqus.html" . }}    
   </div>
   {{ end }}
-  <div class="recommend-articles">
-    {{ i18n "postRecommendArticles"}}
-    <ul>
-      {{ if .Prev }}
-      <li>
-        <a href="{{ .Prev.Permalink }}" rel="prev">
-          <span>{{ .Prev.Title }}</span>
-        </a>
-      </li>
+
+  {{ $related := .Site.RegularPages.Related . | first 5 }}
+  {{ with $related }}
+  <h3>See Also</h3>
+  <ul>
+      {{ range . }}
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
       {{ end }}
-      {{ if .Next }}
-      <li>
-        <a href="{{ .Next.Permalink }}" rel="next">
-          <span>{{ .Next.Title }}</span>
-        </a>
-      </li>
-      {{ end }}
-    </ul>
-  </div>
+  </ul>
+  {{ end }}
+
+  {{ if not .Params.hidecomment }}
+    {{ if not .Site.BuildDrafts }}
+    <div class="post-comment">
+      {{ template "_internal/disqus.html" . }}
+    </div>
+    {{ end }}
+  {{ end }}
+
+  {{ if not .Params.hidenext }}
+    <div class="recommend-articles">
+      {{ i18n "postRecommendArticles"}}
+      <ul>
+        {{ if .Prev }}
+        <li>
+          <a href="{{ .Prev.Permalink }}" rel="prev">
+            <span>{{ .Prev.Title }}</span>
+          </a>
+        </li>
+        {{ end }}
+        {{ if .Next }}
+        <li>
+          <a href="{{ .Next.Permalink }}" rel="next">
+            <span>{{ .Next.Title }}</span>
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+
+  {{ end }}
 </div>

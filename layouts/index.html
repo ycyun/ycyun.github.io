@@ -1,0 +1,12 @@
+{{ partial "header.html" . }}
+
+{{ range .Paginator.Pages }}
+  {{ if not .Params.notblog }}
+  {{ .Render "summary"}}
+  <hr class="summary-sep" />
+  {{end}}
+{{ end }}
+
+{{ partial "pagination.html" . }}
+
+{{ partial "footer.html" . }}

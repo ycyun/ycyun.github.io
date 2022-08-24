@@ -1,0 +1,14 @@
+#!/bin/bash
+
+if [ -z "$1" ]
+then
+  echo "usage: $0 projectname"
+else
+  if [ -f "content/projects/$1.md" ]
+  then
+    vi content/projects/$1.md
+  else
+    hugo new projects/$1.md --kind project
+    vi content/projects/$1.md
+  fi
+fi
