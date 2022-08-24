@@ -8,10 +8,12 @@
       </div>
     </a>
   </div>
+{{ if .Params.hasTOC }}
   <div class="post-toc">
     <span class="title">{{ i18n "postToc" }}</span>
     {{ .TableOfContents }}
   </div>
+{{ end }} 
   <section class="post-content">
     {{ .Content }}
   </section>

@@ -1,10 +1,11 @@
 ---
 title: "libaladin 개발시작"
 date: 2022-08-24T13:21:20+09:00
-categories: [project]
+categories: [projects]
 tags: [libaladin, go, 작업물]
 cover: ""
 draft: false
+hasTOC: true
 ---
 
 libaladin이라는 알라딘 openAPI를 이용하여 도서의 가격, 출간일등을 조회하는 library를 개발해보려고 한다.
