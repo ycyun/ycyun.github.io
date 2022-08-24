@@ -26,9 +26,7 @@ url = "/tags"
     weight = 10
 
 [outputs]
-home = ["HTML", "RSS", "JSON"]
-
-
+home = ["HTML", "RSS"]
 
 
 [sitemap]
