@@ -1,1 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on 블로그</title><link>https://blog.ycyun.xyz/categories/</link><description>Recent content in Categories on 블로그</description><generator>Hugo -- gohugo.io</generator><language>ko-KR</language><managingEditor>ycyun@ycyun.xyz (윤여천 (YeoCheon, Yun))</managingEditor><webMaster>ycyun@ycyun.xyz (윤여천 (YeoCheon, Yun))</webMaster><lastBuildDate>Wed, 24 Aug 2022 16:24:00 +0900</lastBuildDate><atom:link href="https://blog.ycyun.xyz/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>Projects</title><link>https://blog.ycyun.xyz/categories/projects/</link><pubDate>Wed, 24 Aug 2022 16:24:00 +0900</pubDate><author>ycyun@ycyun.xyz (윤여천 (YeoCheon, Yun))</author><guid>https://blog.ycyun.xyz/categories/projects/</guid><description/></item><item><title>일상</title><link>https://blog.ycyun.xyz/categories/%EC%9D%BC%EC%83%81/</link><pubDate>Thu, 01 Jul 2021 11:25:35 +0900</pubDate><author>ycyun@ycyun.xyz (윤여천 (YeoCheon, Yun))</author><guid>https://blog.ycyun.xyz/categories/%EC%9D%BC%EC%83%81/</guid><description/></item><item><title>AboutMe</title><link>https://blog.ycyun.xyz/categories/aboutme/</link><pubDate>Tue, 17 Apr 1990 19:25:12 +0200</pubDate><author>ycyun@ycyun.xyz (윤여천 (YeoCheon, Yun))</author><guid>https://blog.ycyun.xyz/categories/aboutme/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on 블로그</title>
+    <link>https://blog.ycyun.xyz/categories/</link>
+    <description>Recent content in Categories on 블로그</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-KR</language>
+    <managingEditor>ycyun@ycyun.xyz (윤여천 (YeoCheon, Yun))</managingEditor>
+    <webMaster>ycyun@ycyun.xyz (윤여천 (YeoCheon, Yun))</webMaster>
+    <lastBuildDate>Wed, 24 Aug 2022 16:24:00 +0900</lastBuildDate><atom:link href="https://blog.ycyun.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projects</title>
+      <link>https://blog.ycyun.xyz/categories/projects/</link>
+      <pubDate>Wed, 24 Aug 2022 16:24:00 +0900</pubDate>
+      <author>ycyun@ycyun.xyz (윤여천 (YeoCheon, Yun))</author>
+      <guid>https://blog.ycyun.xyz/categories/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>일상</title>
+      <link>https://blog.ycyun.xyz/categories/%EC%9D%BC%EC%83%81/</link>
+      <pubDate>Thu, 01 Jul 2021 11:25:35 +0900</pubDate>
+      <author>ycyun@ycyun.xyz (윤여천 (YeoCheon, Yun))</author>
+      <guid>https://blog.ycyun.xyz/categories/%EC%9D%BC%EC%83%81/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AboutMe</title>
+      <link>https://blog.ycyun.xyz/categories/aboutme/</link>
+      <pubDate>Tue, 17 Apr 1990 19:25:12 +0200</pubDate>
+      <author>ycyun@ycyun.xyz (윤여천 (YeoCheon, Yun))</author>
+      <guid>https://blog.ycyun.xyz/categories/aboutme/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
